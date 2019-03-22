@@ -1,0 +1,27 @@
+  //Bonjour Madame Raja Jlidi :)
+{
+  "name": "Chat-app",
+  "version": "5.3.8",
+  "description": "this App for chat",
+  "main": "server.js",
+  "scripts": {
+    "test": "",
+    "start": "node server.js"
+  },
+  "keywords": [
+    "chat",
+    "app",
+    "web",
+    "developer",
+    "nodejs",
+    "express",
+  ],
+  "author": "Gaith Bechir",
+  "license": "",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "cors": "^2.8.3",
+    "express": "^4.15.3",
+    "socket.io": "^2.0.3"
+  }
+}
