@@ -1,0 +1,89 @@
+span,
+input {
+  border: 2px solid rgb(255, 255, 255);
+  font-size: 1.75em;
+  padding: .25em .5em .3125em;
+  color: rgb(255, 255, 255);
+  border-radius: .25em;
+  background: transparent;
+  -webkit-transition: all .100s;
+  transition: all .100s;
+}
+
+p{
+    color: rgb(202, 118, 69);
+    margin-left: 70px;
+    font-family: cursive;
+    font-size: 20px;
+}
+
+
+span:focus,
+input:focus {
+  outline: none;
+  color: rgb(255, 255, 255);
+  border-color: rgb(255, 255, 255);
+}
+span.keyup,
+input.keyup {
+  color: white;
+  border-color: white;
+  text-shadow: 0 0 .125em white;
+  box-shadow: 0 0 .25em white,inset 0 0 .25em white;
+}
+
+canvas {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  pointer-events: none;
+}
+
+input {
+  font-family: "Arial Rounded MT Bold","Helvetica Rounded",Arial,sans-serif;
+}
+
+::-webkit-input-placeholder {
+  color: rgb(255, 0, 0);
+  text-shadow: 0 0 .125em transparent;
+  -webkit-transition: all .25s;
+  transition: all .25s;
+}
+
+input:focus::-webkit-input-placeholder {
+  opacity: .5;
+}
+
+::-moz-placeholder {
+  color: rgb(255, 0, 0);
+  text-shadow: 0 0 .125em transparent;
+  -webkit-transition: all .25s;
+  transition: all .25s;
+}
+
+input:focus::-moz-placeholder {
+  opacity: .5;
+}
+
+:-ms-input-placeholder {
+  color: rgb(255, 0, 0);
+  text-shadow: 0 0 .125em transparent;
+  -webkit-transition: all .25s;
+  transition: all .25s;
+}
+
+input:focus:-ms-input-placeholder {
+  opacity: .15;
+}
+
+
+input {
+  position: fixed;
+  box-sizing: border-box;
+  bottom: 4em;
+  left: 50%;
+  width: 16em;
+  margin-left: -5.5em;
+}
