@@ -1,18 +1,16 @@
-
 var socket = io("http://localhost:5000");
 
-
 function setTitle(title) {
-    document.querySelector("h2").innerHTML = title;
+    document.querySelector("h1").innerHTML = title;
 }
 
 
 socket.on("disconnect", function() {
-	setTitle("My App Not Connected");
+	setTitle("Disconnected App For chat");
 });
 
-socket.on("hat connect", function() {
-	setTitle("My App Connected");
+socket.on("connect", function() {
+	setTitle("<center>Connected App For chat </center>");
 });
 
 socket.on("message", function(message) {
@@ -26,16 +24,8 @@ document.forms[0].onsubmit = function () {
     input.value = '';
 };
 
-
-
 function printMessage(message) {
     var p = document.createElement("p");
     p.innerText = message;
     document.querySelector("div.messages").appendChild(p);
 }
-
-
-
-
-
-

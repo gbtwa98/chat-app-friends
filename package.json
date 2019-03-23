@@ -1,27 +1,26 @@
-  //Bonjour Madame Raja Jlidi :)
 {
-  "name": "Chat-app",
-  "version": "5.3.8",
-  "description": "this App for chat",
-  "main": "server.js",
+  "name": "app-chat",
+  "version": "1.0.0",
+  "description": "app for chat frends",
+  "main": "index.js",
   "scripts": {
-    "test": "",
-    "start": "node server.js"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
-    "chat",
     "app",
-    "web",
-    "developer",
-    "nodejs",
-    "express",
+    "chat",
+    "frends",
+    "gaith",
+    "new",
+    "2019",
+    "nodejs"
   ],
   "author": "Gaith Bechir",
-  "license": "",
+  "license": "ISC",
   "dependencies": {
-    "body-parser": "^1.17.2",
-    "cors": "^2.8.3",
-    "express": "^4.15.3",
-    "socket.io": "^2.0.3"
+    "express": "^4.16.4",
+    "install": "^0.12.2",
+    "npm": "^6.9.0",
+    "socket.io": "^2.2.0"
   }
 }
